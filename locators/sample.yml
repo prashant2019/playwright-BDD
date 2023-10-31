@@ -1,0 +1,13 @@
+#Sample locators
+googleSearchBox: 'xpath + //*[@id="APjFqb"]'
+googleSearchBtn: 'xpath + //input[@value="Google Search"]'
+searchResultLnk: 'xpath + //*[@jsname ="UWckNb"]'
+playWrightSearchIcon: 'xpath + .DocSearch-Search-Icon'
+playWrightSearchBox: 'xpath +.DocSearch-Input'
+playWrightSearchResult: 'xpath + .DocSearch-Hit-title'
+pageTitle: 'xpath + //*[@class="theme-doc-markdown markdown"]//h1'
+googleAcceptAllBtn: 'getByRole + button[name="Accept all"i]'
+AgreementCheckBox: 'xpath + //*[@class="checkbox"]//input'
+AcceptCookieBtn: 'xpath + #ez-accept-all'
+OrgDropDownBox: 'xpath + //*[@id="utyp"]'
+techName: 'xpath + #fname'

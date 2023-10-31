@@ -1,0 +1,403 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "google-search-functionality-for-multiple-serach-terms;google-search-demo",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Google search demo",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1012230825
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to \"googleUrl\"",
+            "match": {
+              "location": "step-definitions/action-step.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1135148021
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter \"Python\" into \"googleSearchBox\"",
+            "match": {
+              "location": "step-definitions/action-step.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48389838
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I wait for \"1\" seconds",
+            "match": {
+              "location": "step-definitions/action-step.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1002811971
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 68789338
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo",
+            "line": 1
+          },
+          {
+            "name": "@google",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "google-search-functionality-for-multiple-serach-terms;google-search-demo",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Google search demo",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 294846052
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to \"googleUrl\"",
+            "match": {
+              "location": "step-definitions/action-step.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 573844941
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter \"Javascript\" into \"googleSearchBox\"",
+            "match": {
+              "location": "step-definitions/action-step.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36537637
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I wait for \"1\" seconds",
+            "match": {
+              "location": "step-definitions/action-step.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000756145
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 29203520
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo",
+            "line": 1
+          },
+          {
+            "name": "@google",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "google-search-functionality-for-multiple-serach-terms",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Google search functionality for multiple serach terms",
+    "tags": [
+      {
+        "name": "@demo",
+        "line": 1
+      }
+    ],
+    "uri": "features/demo-google.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "sample-test-scenarios-for-playwright-bdd-framework;playwright-search-demo",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Playwright search demo",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 298289457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to \"playWrightUrl\"",
+            "match": {
+              "location": "step-definitions/action-step.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 425504963
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I run accessibility \"wcag2aa\" check on current page",
+            "match": {
+              "location": "step-definitions/action-step.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 767510860
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I click \"playWrightSearchIcon\"",
+            "match": {
+              "location": "step-definitions/action-step.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75986579
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I enter \"TimeOut\" into \"playWrightSearchBox\"",
+            "match": {
+              "location": "step-definitions/action-step.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 202961844
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I click \"playWrightSearchResult\"",
+            "match": {
+              "location": "step-definitions/action-step.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 371582379
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I verify \"searchTitle\" text is display at \"pageTitle\"",
+            "match": {
+              "location": "step-definitions/verify-step.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 358648459
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 38115895
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo",
+            "line": 1
+          },
+          {
+            "name": "@playwright",
+            "line": 4
+          },
+          {
+            "name": "@accessibility",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "sample-test-scenarios-for-playwright-bdd-framework;playwright-search-demo",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Playwright search demo",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 287434393
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I navigate to \"techUrl\"",
+            "match": {
+              "location": "step-definitions/action-step.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 961588827
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I select \"AgreementCheckBox\" checkbox",
+            "match": {
+              "location": "step-definitions/action-step.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68908736
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I enter \"TimeOut\" into \"techName\"",
+            "match": {
+              "location": "step-definitions/action-step.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16382623
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I take current page screenshot",
+            "match": {
+              "location": "step-definitions/action-step.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 306505455
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I select \"Business\" from \"OrgDropDownBox\"",
+            "match": {
+              "location": "step-definitions/action-step.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15734696
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 77246619
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo",
+            "line": 1
+          },
+          {
+            "name": "@form",
+            "line": 13
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "sample-test-scenarios-for-playwright-bdd-framework",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Sample test scenarios for playwright bdd framework",
+    "tags": [
+      {
+        "name": "@demo",
+        "line": 1
+      }
+    ],
+    "uri": "features/demo-playwright.feature"
+  }
+]

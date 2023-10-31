@@ -1,0 +1,8 @@
+#Sample locators
+demoURL: 'https://www.saucedemo.com/'
+googleUrl: 'https://www.google.co.in/'
+techUrl: 'https://formsmarts.com/form-builder-signup'
+searchTerm: 'playwright'
+playWrightUrl: 'https://playwright.dev/'
+searchTimeOut: 'timeout'
+searchTitle: 'Timeouts'
